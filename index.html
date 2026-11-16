@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akila 阿錡拉（楊忠錡）— 高雄藝術家與美術講師</title>
+<!--
+  Tagline 候選（v2，採用第一句）：
+  1. 從講台出發，在行走之間收集光。（採用）
+  2. 走出教室，美在每一次邁步裡。
+  3. 往返於教室之間，我把日常畫成風景。
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1a1a1a;--mute:#8a8a8a;--line:#e6e6e6;--bg:#fbfaf8}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans TC",sans-serif;font-weight:300;line-height:1.9;letter-spacing:.03em}
+.wrap{max-width:960px;margin:0 auto;padding:0 28px}
+header{display:flex;justify-content:space-between;align-items:center;padding:32px 0}
+.logo{font-family:"Noto Serif TC",serif;font-weight:600;letter-spacing:.1em}
+nav a{color:var(--mute);text-decoration:none;margin-left:22px;font-size:14px}
+nav a:hover{color:var(--ink)}
+.hero{padding:110px 0 130px}
+.hero h1{font-family:"Noto Serif TC",serif;font-weight:400;font-size:clamp(34px,6vw,64px);line-height:1.35;letter-spacing:.04em}
+.hero p{margin-top:36px;color:var(--mute);max-width:560px}
+section{padding:90px 0;border-top:1px solid var(--line)}
+h2{font-family:"Noto Serif TC",serif;font-weight:400;font-size:14px;letter-spacing:.3em;color:var(--mute);margin-bottom:48px}
+h2 span{font-family:"Noto Sans TC";letter-spacing:.15em;margin-left:12px;font-size:12px}
+h4{font-family:"Noto Serif TC",serif;font-weight:400;font-size:13px;letter-spacing:.25em;color:var(--mute);margin:56px 0 8px}
+.about p{font-family:"Noto Serif TC",serif;font-size:19px;max-width:660px;margin-bottom:20px}
+.exh .meta{color:var(--mute);font-size:14px;letter-spacing:.15em}
+.exh h3{font-family:"Noto Serif TC",serif;font-weight:400;font-size:clamp(30px,5vw,48px);margin:10px 0 28px}
+.exh .stmt{font-family:"Noto Serif TC",serif;font-size:18px;max-width:660px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px 28px;margin-top:64px}
+.work .ph{aspect-ratio:70/90;background:#d9d9d9;display:flex;align-items:center;justify-content:center;color:#777;font-size:14px;letter-spacing:.2em}
+.work .cap{margin-top:12px;font-size:13px;color:var(--mute)}
+.work .cap b{display:block;color:var(--ink);font-weight:400;font-family:"Noto Serif TC",serif;font-size:16px}
+.work .cap p{color:#555;font-size:14px;margin-top:6px}
+.list li{list-style:none;display:grid;grid-template-columns:140px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--line)}
+.list .yr{color:var(--mute);font-size:14px}
+.list .t{font-family:"Noto Serif TC",serif}
+.list .d{color:var(--mute);font-size:14px}
+.tbd{display:inline-block;font-size:11px;border:1px solid #bbb;color:#888;padding:0 6px;margin-left:8px;letter-spacing:.1em}
+.media-item{margin-bottom:72px}
+.media-item .src{color:var(--mute);font-size:14px}
+.media-item h3{font-family:"Noto Serif TC",serif;font-weight:400;font-size:20px;margin:6px 0 20px}
+.video{position:relative;aspect-ratio:16/9;background:#e9e9e9}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.clips{display:flex;gap:20px;flex-wrap:wrap}
+.clips a{display:block;width:220px;text-decoration:none}
+.clips img{width:100%;display:block;border:1px solid var(--line)}
+.media-item a.lnk{color:var(--ink);font-size:14px;display:inline-block;margin-top:12px}
+.contact h3{font-family:"Noto Serif TC",serif;font-weight:400;font-size:clamp(26px,4vw,40px);margin-bottom:24px}
+.contact a{color:var(--ink)}
+footer{padding:48px 0;color:var(--mute);font-size:12px}
+@media(max-width:720px){
+ nav{display:none}.hero{padding:70px 0 90px}section{padding:64px 0}
+ .grid{grid-template-columns:1fr 1fr;gap:24px 16px}
+ .list li{grid-template-columns:1fr;gap:2px}
+ .about p,.exh .stmt{font-size:17px}
+ .clips a{width:calc(50% - 10px)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="logo">Akila 阿錡拉</div>
+<nav><a href="#exhibition">近期展覽</a><a href="#about">關於</a><a href="#roles">身分</a><a href="#projects">專案</a><a href="#cv">經歷</a><a href="#media">媒體報導</a><a href="#contact">聯絡</a></nav></header>
+
+<div class="hero">
+<h1>生命的旅途，<br>在行走之間尋找光。</h1>
+<p>Akila 阿錡拉（楊忠錡），高雄的藝術家、特教美術講師與策展人。自 2011 年起以「阿錡拉」之名創作與教學。</p>
+</div>
+
+<section id="exhibition" class="exh"><h2>近期展覽<span>UPCOMING</span></h2>
+<div class="meta">2026.12.02 – 12.27・高雄市岡山文化中心</div>
+<h3>聯展《蛻變》</h3>
+<p class="meta" style="margin:-12px 0 28px">參展系列：《移動的美術課》・六幅作品</p>
+<p class="stmt">系列《移動的美術課》將視角轉向講台之外。展出的六幅作品，記錄了創作者以教育者兼觀察者的身分，在不同教室與場域之間行走時所捕捉的日常光影。</p>
+<p class="stmt">生活即美育：美不只存在於教室的範本裡，更在邁出步伐後的每一次體驗中。</p>
+<div class="grid"><div class="work"><div class="ph">創作中</div><div class="cap"><b>〈朝陽〉</b>2026・30號（70 × 90 cm，不含框）・壓克力顏料、畫布<p>第一道陽光灑落山頭，山稜染成一片金色，飛鳥迎著朝陽掠過，系列啟程。</p></div></div><div class="work"><div class="ph">創作中</div><div class="cap"><b>〈流水〉</b>2026・30號（70 × 90 cm，不含框）・壓克力顏料、畫布<p>往返途中的河與水光，就像每個生命都不一樣。</p></div></div><div class="work"><div class="ph">創作中</div><div class="cap"><b>〈原彩〉</b>2026・30號（70 × 90 cm，不含框）・壓克力顏料、畫布<p>土地、山林與原住民色彩交織，蝶影穿梭，溫暖而有生命力。</p></div></div><div class="work"><div class="ph">創作中</div><div class="cap"><b>〈樹影〉</b>2026・30號（70 × 90 cm，不含框）・壓克力顏料、畫布<p>停下腳步時的光影斑駁，萬物歇息，是日常裡安靜的感動。</p></div></div><div class="work"><div class="ph">創作中</div><div class="cap"><b>〈暮色〉</b>2026・30號（70 × 90 cm，不含框）・壓克力顏料、畫布<p>下課後的黃昏，夕陽染紅天空與山稜，歸鳥成群，一天的光漸漸沉靜。</p></div></div><div class="work"><div class="ph">創作中</div><div class="cap"><b>〈星空〉</b>2026・30號（70 × 90 cm，不含框）・壓克力顏料、畫布<p>夜裡的歸途，繁星滿天，鳥與蝶都已入夢，與〈朝陽〉首尾呼應。</p></div></div></div>
+</section>
+
+<section id="about" class="about"><h2>關於<span>ABOUT</span></h2>
+<p>阿錡拉長期與身心障礙者一同創作，十五年來在腦麻協會、伊甸基金會、唐氏症關愛者協會、樂仁啟智中心、星星兒協會等單位擔任美術講師，陪伴學員找到屬於自己的表達方式。</p>
+<p>他出身空間設計，曾任馬賽克修復技術專員，也曾擔任高雄市愛河街頭藝人協會總幹事；設計的訓練與街頭的經驗，讓他的創作始終貼近生活。</p>
+<p>早年以「阿錡拉」為名從事商品設計與插畫創作，2009 年起在高雄捷運站內經營手創工作室長達十年；任職紅毛港文化創意期間，設計台北捷運中山站的馬賽克公共藝術壁畫。2011 年《自由時報》以兩個整版報導，請他帶讀者走訪高雄的手創小鋪。</p>
+<p>他想做的，從來不是教學員畫得「像」，而是陪他們找到自己的表達方式；也因為想讓學員的作品被看見，他開始策展。</p>
+<p>創作媒材與方法說明<span class="tbd">待補</span></p>
+</section>
+
+<section id="roles"><h2>身分<span>ROLES</span></h2>
+<ul class="list">
+<li><span class="yr">藝術家</span><div><div class="t">以「阿錡拉」之名創作，2026 年於聯展《蛻變》發表系列《移動的美術課》，以壓克力記錄行走於教室之間的光影</div></div></li>
+<li><span class="yr">美術講師</span><div><div class="t">2011 年起於多個社福單位教授特教美術，陪伴身心障礙學員創作</div></div></li>
+<li><span class="yr">策展人</span><div><div class="t">2012 年起策劃學員作品展，包括《我的小小夢想》系列、《畫中有畫》、《藝想世界》等</div></div></li>
+<li><span class="yr">設計者</span><div><div class="t">空間設計背景；商品設計、插畫、馬賽克修復與公共藝術</div></div></li>
+<li><span class="yr">地方工作者</span><div><div class="t">高雄市民宿發展協會 總幹事；迴埕民宿 管家</div></div></li>
+</ul>
+</section>
+
+<section id="projects"><h2>專案<span>PROJECTS</span></h2>
+<ul class="list">
+<li><span class="yr">2026</span><div><div class="t">系列《移動的美術課》</div><div class="d">六幅壓克力、畫布作品（70 × 90 cm）・聯展《蛻變》・高雄市岡山文化中心・創作中</div></div></li>
+<li><span class="yr">2010</span><div><div class="t">台北捷運中山站 馬賽克公共藝術壁畫</div><div class="d">設計（任職紅毛港文化創意期間）</div></div></li>
+<li><span class="yr">2009–2019</span><div><div class="t">高雄捷運站內 手創工作室</div><div class="d">經營十年</div></div></li>
+<li><span class="yr">2011 起</span><div><div class="t">特教美術課程與教案</div><div class="d">累積十五年的身心障礙者美術教學實務</div></div></li>
+</ul>
+</section>
+
+<section id="cv"><h2>經歷<span>CV</span></h2>
+<h4 style="margin-top:0">學歷</h4><ul class="list"><li><span class="yr">學士</span><div><div class="t">國立雲林科技大學 空間設計系</div></div></li><li><span class="yr">碩士班</span><div><div class="t">國立高雄師範大學 視覺設計系碩士班（肄業）</div></div></li></ul>
+<h4>簡歷</h4><ul class="list"><li><span class="yr">2006</span><div><div class="t">崑山科技大學　研究助理</div></div></li><li><span class="yr">2010</span><div><div class="t">紅毛港文化創意有限公司　馬賽克修復技術專員</div></div></li><li><span class="yr">2011</span><div><div class="t">高雄市腦麻協會　美術講師</div></div></li><li><span class="yr">2011</span><div><div class="t">高雄市愛河街頭藝人協會　總幹事</div></div></li><li><span class="yr">2014</span><div><div class="t">伊甸基金會 溫馨家園　美術講師</div></div></li><li><span class="yr">2015</span><div><div class="t">超越顛峰協會　藝術講師</div></div></li><li><span class="yr">2015</span><div><div class="t">中華民國唐氏症關愛者協會　藝術講師</div></div></li><li><span class="yr">2018</span><div><div class="t">樂仁啟智中心（樂仁美術）　藝術創作講師</div></div></li><li><span class="yr">2019</span><div><div class="t">大同醫院 福樂學堂（大同福樂美術）　美術講師</div></div></li><li><span class="yr">2022</span><div><div class="t">星星兒協會 揚智中心　美術講師</div></div></li><li><span class="yr">2024</span><div><div class="t">平安基金會 平安好鄰居／平安好所在　美術講師</div></div></li><li><span class="yr">現任</span><div><div class="t">高雄市民宿發展協會　總幹事</div></div></li><li><span class="yr">現任</span><div><div class="t">迴埕民宿　管家</div></div></li></ul>
+<h4>個展・獲獎</h4><ul class="list"><li><span class="yr">2013</span><div><div class="t">《城市印象旅行》</div><div class="d">自然呼吸瑜珈館</div></div></li><li><span class="yr">2014</span><div><div class="t">玩潮客聯盟生活創意展　首獎</div><div class="d">六堆客家文物館</div></div></li></ul>
+<h4>策劃展覽</h4><ul class="list"><li><span class="yr">2012–2015</span><div><div class="t">《我的小小夢想》第一至四屆</div><div class="d">旗山生活文化園區</div></div></li><li><span class="yr">2014</span><div><div class="t">《你生活在我的畫裡》</div><div class="d">高雄市立圖書館 三民分館</div></div></li><li><span class="yr">2015</span><div><div class="t">《我的小小夢想》</div><div class="d">屏東市公所</div></div></li><li><span class="yr">2016</span><div><div class="t">《木頭子特展》</div><div class="d">高雄市文化中心</div></div></li><li><span class="yr">2018</span><div><div class="t">《畫中有畫》</div><div class="d">高雄市政府中庭</div></div></li><li><span class="yr">2019</span><div><div class="t">《藝想世界》</div><div class="d">高雄市政府中庭</div></div></li></ul>
+</section>
+
+<section id="media"><h2>媒體報導<span>PRESS</span></h2>
+<div class="media-item"><div class="src">公視《點點愛》・剪輯自《聽聽看》</div>
+<h3>〈王慶祥、楊忠錡 啟發身障藝術天份 看到純真藝術創作之美〉</h3>
+<div class="video"><iframe src="https://www.youtube.com/embed/Sp2YkG5WgHI" title="公視《點點愛》" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+<a class="lnk" href="https://youtu.be/Sp2YkG5WgHI" target="_blank" rel="noopener">在 YouTube 觀看 →</a></div>
+<div class="media-item"><div class="src">2011.04.16《自由時報》血拚MAP・E20–E21 版</div>
+<h3>〈商品設計師阿錡拉帶逛 高雄手創設計小鋪〉〈阿錡拉帶逛 手作小鋪找趣味〉</h3>
+<p class="media-desc">2011 年，《自由時報》以兩個整版的篇幅，邀請以「阿錡拉」為名的商品設計師與插畫創作者，帶讀者走訪高雄的手創設計小鋪，介紹在地手作職人的作品與故事。這份報導記下了他從設計走向藝術創作與美感教育的起點。</p>
+<div class="clips"><a href="img/ltn-2011-e20.jpg" target="_blank"><img src="img/ltn-2011-e20.jpg" alt="自由時報 2011.04.16 血拚MAP E20 版：商品設計師阿錡拉帶逛 高雄手創設計小鋪" loading="lazy"><span style="display:block;font-size:12px;color:var(--mute);margin-top:6px">E20 版</span></a><a href="img/ltn-2011-e21.jpg" target="_blank"><img src="img/ltn-2011-e21.jpg" alt="自由時報 2011.04.16 血拚MAP E21 版：阿錡拉帶逛 手作小鋪找趣味" loading="lazy"><span style="display:block;font-size:12px;color:var(--mute);margin-top:6px">E21 版</span></a></div></div>
+</section>
+
+<section id="contact" class="contact"><h2>聯絡<span>CONTACT</span></h2>
+<h3>展覽、合作與收藏洽詢</h3>
+<p>Email：<a href="mailto:akila33@gmail.com">akila33@gmail.com</a></p>
+<p>Instagram：@待補</p>
+<p style="color:var(--mute);font-size:14px;margin-top:12px">Kaohsiung, Taiwan</p>
+</section>
+<footer>© 2026 Akila 阿錡拉 · 楊忠錡</footer>
+</div>
+</body></html>
